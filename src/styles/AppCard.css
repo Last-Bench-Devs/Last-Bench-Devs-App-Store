@@ -1,0 +1,58 @@
+.card-container {
+  max-width: 500px;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.card-banner {
+  width: 100%;
+  border-radius: 30px;
+}
+.gradient-top > img {
+  width: 50px;
+  padding: 0 20px;
+  border-radius: 100px;
+}
+.gradient-top {
+  display: flex;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  color: white;
+  text-align: left;
+  padding: 0px 0 20px 0;
+  top: 0px;
+  width: 100%;
+  background: linear-gradient( to bottom ,rgba(27,27,27,.9019607843137255), rgba(27,27,27,.7019607843137255),rgba(27,27,27,.4019607843137255),rgba(25,24,24, 0));
+}
+
+.gradient-top>h2{
+}
+
+.gradient-bottom {
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  color: white;
+  text-align: left;
+  padding: 20px 0 20px 0;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient( to top ,rgba(27,27,27,.9019607843137255), rgba(27,27,27,.7019607843137255),rgba(27,27,27,.4019607843137255),rgba(25,24,24, 0));
+}
+
+.gradient-bottom>p{
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.card-toolbar {
+  padding: 0 20px;
+}
+.card-icon {
+  width: 35px;
+  margin: 5px 10px;
+}
