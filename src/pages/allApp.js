@@ -17,12 +17,14 @@ function AllApp() {
       <div className="app-list">
         {
           dataall.map((currentelem, index) => {
-            return <Link to="/appdetail">
+            return <Link to={{
+              pathname:`/appdetail/${currentelem.appId}`
+            }}>
               <AppCard
                 appName={currentelem.appName}
                 appBanner={currentelem.appBanner}
                 appIcon={currentelem.appIcon}
-                appDescription={currentelem.appDescription}
+                appDescription={currentelem.shortDescription}
               />
             </Link>
           })
