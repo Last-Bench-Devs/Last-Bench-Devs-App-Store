@@ -9,6 +9,12 @@ body {
 * {
   font-family: 'Lato';
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 html, body, #root, .App {
   height: 100%
 }
@@ -16,3 +22,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: rgb(128, 90, 146); 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: rgb(60, 36, 72); 
+} 

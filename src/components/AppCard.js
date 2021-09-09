@@ -13,13 +13,16 @@ function AppCard({
   appIcon
 }) {
   return (
-    <div className="card-container">
+    <div className="card-container zoom">
       <img className="card-banner" src={appBanner} />
       <div className="gradient-top">
         <img src={appIcon} />
-        <h2>
-          {appName}
-        </h2>
+        <div>
+          <h2 className="app-name">
+            {appName}
+          </h2>
+          <p className="app-author">Last Bench Devs</p>
+        </div>
       </div>
       <div className="gradient-bottom">
         <p>{appDescription}</p>

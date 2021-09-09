@@ -3,6 +3,7 @@
   position: relative;
   border-radius: 30px;
   border: 2px solid #fff;
+  margin: 20px;
 }
 
 .card-banner {
@@ -10,9 +11,16 @@
   border-radius: 30px;
 }
 .gradient-top > img {
+  border-radius: 1000px;
+  height: 50px;
   width: 50px;
-  padding: 0 20px;
-  border-radius: 100px;
+  margin: 0 10px 0 20px;
+}
+.app-name {
+  margin-bottom: 2px;
+}
+.app-author {
+  margin-top: 0;
 }
 .gradient-top {
   display: flex;
@@ -55,4 +63,13 @@
 .card-icon {
   width: 35px;
   margin: 5px 10px;
+}
+
+.zoom {
+  transition: transform .2s; 
+  z-index: 1000;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
 }
