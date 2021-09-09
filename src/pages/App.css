@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.app-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0;
+}
