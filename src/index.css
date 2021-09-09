@@ -18,6 +18,10 @@ html {
 html, body, #root, .App {
   height: 100%
 }
+.root-dark {
+  background-color: #1a1a1a;
+  color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

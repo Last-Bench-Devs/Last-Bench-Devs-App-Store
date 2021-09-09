@@ -1,9 +1,10 @@
+import Cookies from 'js-cookie';
 import React from 'react'
 import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar navbar-dark">
       <div className="nav-left">
         <img
           className="nav-logo"
@@ -12,7 +13,7 @@ function Navbar() {
         <h2>LBD Store</h2>
       </div>
       <div className="nav-right">
-
+        <button>Mode</button>
       </div>
     </div>
   )
