@@ -20,22 +20,30 @@ html, body, #root, .App {
 }
 .root-dark {
   background-color: #1a1a1a;
-  color: white;
+  color: white !important;
+}
+.root-light {
+  color: #1a1a1a !important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+* {
+  transition: all 0.2s ease-out;
+}
+body {
+  overflow: overlay;
+}
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
   ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: transparent; 
 }
   ::-webkit-scrollbar-thumb {
   background: rgb(128, 90, 146); 
-    border-radius:10px;
+    /* border-radius:10px; */
 }
 ::-webkit-scrollbar-thumb:hover {
   

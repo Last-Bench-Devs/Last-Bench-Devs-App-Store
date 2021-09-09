@@ -1,28 +1,22 @@
-import "react-multi-carousel/lib/styles.css";
+//import "react-multi-carousel/lib/styles.css";
 import '../styles/AppDetails.css'
-
-
-
 import dataall from '../data/data.json'
+import { useParams } from "react-router";
 
-const AppDetails=({ match })=> {
+const AppDetails = () => {
 
-  
-
-  console.log(match.params.appId)
-
-  
-
-  var screenshots = dataall[match.params.appId].screenshots
+  const { appId } = useParams();
+  // console.log(params);
+  var screenshots = dataall[appId].screenshots
 
   return (
     <div className="main">
 
       <div className="upper">
         <div className="appDetails" >
-          <img src={dataall[match.params.appId].appIcon} />
+          <img src={dataall[appId].appIcon} />
           <div>
-            <h2>{dataall[match.params.appId].appName}</h2>
+            <h2>{dataall[appId].appName}</h2>
             <p>Last Bennch Devs</p>
           </div>
         </div>

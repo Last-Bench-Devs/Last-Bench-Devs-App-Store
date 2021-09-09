@@ -13,13 +13,16 @@
   padding: 20px;
   font-size: 20px;
 }
-input:focus{
+.search-input:focus{
 	border-color: inherit;
     -webkit-box-shadow: none;
 	box-shadow: none;
   outline: none;
 }
-
+.search-input-dark {
+  background-color: transparent;
+  color: white;
+}
 @media only screen and (max-width: 1200px){
   /*Tablets [601px -> 1200px]*/
 }
