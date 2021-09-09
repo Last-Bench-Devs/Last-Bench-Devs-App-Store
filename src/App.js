@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/"><AllApp /></Route>
-        <Route path="/appdetail"><AppDetails /></Route>
+        <Route path="/appdetail/:appId" component={AppDetails}></Route>
       </Switch>
     </BrowserRouter>
   );
