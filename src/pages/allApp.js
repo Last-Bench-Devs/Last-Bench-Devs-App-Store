@@ -37,6 +37,7 @@ function AllApp() {
                 appBanner={currentelem.appBanner}
                 appIcon={currentelem.appIcon}
                 appDescription={currentelem.shortDescription}
+                downloads={currentelem.downloads}
               />
             </Link>
           })
