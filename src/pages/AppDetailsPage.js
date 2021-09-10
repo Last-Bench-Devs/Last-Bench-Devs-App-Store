@@ -2,12 +2,15 @@
 import '../styles/AppDetails.css'
 import dataall from '../data/data.json'
 import { useParams } from "react-router";
+import React from 'react';
+import { render } from '@testing-library/react';
 
 const AppDetails = () => {
-
   const { appId } = useParams();
   // console.log(params);
-  var screenshots = dataall[appId].screenshots
+  var screenshots = dataall[appId].screenshots;
+
+  
 
   return (
     <div className="main">
@@ -21,7 +24,7 @@ const AppDetails = () => {
           </div>
         </div>
         <p className="appDetails-description">Nulla id nostrud culpa velit velit duis enim in velit ut Lorem consequat esse sunt. Tempor officia elit tempor laboris. Occaecat laboris esse et non ipsum dolor id proident. Labore pariatur sint pariatur eu in voluptate aute anim esse. Cupidatat magna ipsum elit adipisicing amet duis eu nostrud aute.</p>
-        <a href="../allApps/app-relese.apk"><button className="buttonDownload zoom">DOWNLOAD</button></a>
+        <a href={dataall[appId].downloadAndroid} ><button className="buttonDownload zoom">DOWNLOAD</button></a>
       </div>
 
 

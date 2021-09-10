@@ -1,23 +1,11 @@
 [
     {
-        "appId": 2,
-        "appName": "App Name",
-        "appBanner": "https://dbwgapw6amg93.cloudfront.net/wp-content/uploads/2016/10/best_mobile_app_UI_2016_Personal_Festival.jpg",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
+        "appId": 0,
+        "appName": "ytfy",
+        "appBanner": "https://img.freepik.com/free-vector/music-event-poster-template-with-colorful-shapes_1361-1591.jpg?size=626&ext=jpg",
+        "appIcon": "https://user-images.githubusercontent.com/39475600/132354488-357eeaae-c738-4cd5-80b8-8f47b0660ec6.png",
         "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
-        "screenshots": [
-            "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg"
-        ]
-    },
-    {
-        "appId": 3,
-        "appName": "App Name",
-        "appBanner": "https://blog.tubikstudio.com/wp-content/uploads/2019/03/blog_app_ui_design_tubik.png",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
-        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
+        "shortDescription": "YT-FY is a online music player it has all kind of musics",
         "screenshots": [
             "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
             "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
@@ -25,64 +13,19 @@
             "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
             "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
             "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
-        ]
-    },
-    {
-        "appId": 2,
-        "appName": "App Name",
-        "appBanner": "https://dbwgapw6amg93.cloudfront.net/wp-content/uploads/2016/10/best_mobile_app_UI_2016_Personal_Festival.jpg",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
-        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
-        "screenshots": [
-            "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353318-6db2d9bc-90ee-43e3-b61b-1148d1cad3c1.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
-        ]
-    },
-    {
-        "appId": 1,
-        "appName": "App Name",
-        "appBanner": "https://images.squarespace-cdn.com/content/v1/5c7991fb4d546e4c2f92d01d/1611131229885-BLRX2C68D0WY5N8Z5ZCZ/Group+App+Promo+Banner.jpg?format=2500w",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
-        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
-        "screenshots": [
-            "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353318-6db2d9bc-90ee-43e3-b61b-1148d1cad3c1.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
-        ]
-    },
-    {
-        "appId": 3,
-        "appName": "App Name",
-        "appBanner": "https://blog.tubikstudio.com/wp-content/uploads/2019/03/blog_app_ui_design_tubik.png",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
-        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
-        "screenshots": [
-            "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353318-6db2d9bc-90ee-43e3-b61b-1148d1cad3c1.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
-            "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
-        ]
+        ],
+        "downloadAndroid":"https://download943.mediafire.com/52lqohp62btg/6e25ahu4z4ll0ns/ytfy.apk",
+        "downloadIos":null,
+        "downloadWindows":null,
+        "downloadLinux":null
     },
     {
         "appId": 0,
-        "appName": "YTFY",
-        "appBanner": "https://images.squarespace-cdn.com/content/v1/5c7991fb4d546e4c2f92d01d/1611131229885-BLRX2C68D0WY5N8Z5ZCZ/Group+App+Promo+Banner.jpg?format=2500w",
-        "appIcon": "https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg",
+        "appName": "ring",
+        "appBanner": "https://img.freepik.com/free-vector/music-event-poster-template-with-colorful-shapes_1361-1591.jpg?size=626&ext=jpg",
+        "appIcon": "https://user-images.githubusercontent.com/39475600/132354488-357eeaae-c738-4cd5-80b8-8f47b0660ec6.png",
         "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
-        "shortDescription": "Ipsum magna Lorem Lorem velit labore amet",
-        "app": "ytfy.apk",
+        "shortDescription": "YT-FY is a online music player it has all kind of musics",
         "screenshots": [
             "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
             "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
@@ -90,6 +33,30 @@
             "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
             "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
             "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
-        ]
+        ],
+        "downloadAndroid":"https://download943.mediafire.com/52lqohp62btg/6e25ahu4z4ll0ns/ytfy.apk",
+        "downloadIos":null,
+        "downloadWindows":null,
+        "downloadLinux":null
+    },
+    {
+        "appId": 0,
+        "appName": "shibam",
+        "appBanner": "https://img.freepik.com/free-vector/music-event-poster-template-with-colorful-shapes_1361-1591.jpg?size=626&ext=jpg",
+        "appIcon": "https://user-images.githubusercontent.com/39475600/132354488-357eeaae-c738-4cd5-80b8-8f47b0660ec6.png",
+        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
+        "shortDescription": "YT-FY is a online music player it has all kind of musics",
+        "screenshots": [
+            "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132353454-84686f8e-b45e-4002-b964-57d1831bbb26.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132353318-6db2d9bc-90ee-43e3-b61b-1148d1cad3c1.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132353554-09ed4f93-798e-4a13-b30e-d9977694610b.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
+        ],
+        "downloadAndroid":"https://download943.mediafire.com/52lqohp62btg/6e25ahu4z4ll0ns/ytfy.apk",
+        "downloadIos":null,
+        "downloadWindows":null,
+        "downloadLinux":null
     }
 ]
