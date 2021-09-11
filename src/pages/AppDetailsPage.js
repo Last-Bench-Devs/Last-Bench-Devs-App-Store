@@ -30,7 +30,7 @@ const AppDetails = () => {
         <Popup trigger={<button className="buttonDownload zoom">DOWNLOAD</button>} position="bottom">
           {
             dataall[appId].downloads.map((downoads,index)=>{
-              return <a href={downoads.link} target="_blank"><div>{downoads.name}</div></a>
+              return <a href={downoads.link} target="_blank" className="aaaa"><div className="downloadtypes">{downoads.name}</div></a>
             })
           }
         </Popup>
