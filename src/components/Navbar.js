@@ -20,7 +20,7 @@ function Navbar() {
         <Link to="/">
           <img
             className="nav-logo"
-            src="https://i.pinimg.com/736x/a4/d4/80/a4d4803a121a6dd1d7742b57897e4dbc.jpg"
+            src="https://user-images.githubusercontent.com/39475600/132941494-98d08b72-e62e-4c06-8216-405c5d2eecc8.jpg"
           />
           <h2>LBD Store</h2>
         </Link>
