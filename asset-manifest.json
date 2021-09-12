@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Last-Bench-Devs-App-Store/static/css/main.5cbb3e7a.chunk.css",
+    "main.js": "/Last-Bench-Devs-App-Store/static/js/main.2d88efeb.chunk.js",
+    "main.js.map": "/Last-Bench-Devs-App-Store/static/js/main.2d88efeb.chunk.js.map",
+    "runtime-main.js": "/Last-Bench-Devs-App-Store/static/js/runtime-main.97e65187.js",
+    "runtime-main.js.map": "/Last-Bench-Devs-App-Store/static/js/runtime-main.97e65187.js.map",
+    "static/css/2.5e8d4581.chunk.css": "/Last-Bench-Devs-App-Store/static/css/2.5e8d4581.chunk.css",
+    "static/js/2.4d385878.chunk.js": "/Last-Bench-Devs-App-Store/static/js/2.4d385878.chunk.js",
+    "static/js/2.4d385878.chunk.js.map": "/Last-Bench-Devs-App-Store/static/js/2.4d385878.chunk.js.map",
+    "index.html": "/Last-Bench-Devs-App-Store/index.html",
+    "static/css/2.5e8d4581.chunk.css.map": "/Last-Bench-Devs-App-Store/static/css/2.5e8d4581.chunk.css.map",
+    "static/css/main.5cbb3e7a.chunk.css.map": "/Last-Bench-Devs-App-Store/static/css/main.5cbb3e7a.chunk.css.map",
+    "static/js/2.4d385878.chunk.js.LICENSE.txt": "/Last-Bench-Devs-App-Store/static/js/2.4d385878.chunk.js.LICENSE.txt",
+    "static/media/android.bbc06e49.png": "/Last-Bench-Devs-App-Store/static/media/android.bbc06e49.png",
+    "static/media/apple.7c1b102d.png": "/Last-Bench-Devs-App-Store/static/media/apple.7c1b102d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e65187.js",
+    "static/css/2.5e8d4581.chunk.css",
+    "static/js/2.4d385878.chunk.js",
+    "static/css/main.5cbb3e7a.chunk.css",
+    "static/js/main.2d88efeb.chunk.js"
+  ]
+}
