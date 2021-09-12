@@ -16,7 +16,7 @@ function Navbar() {
   }
   return (
     <div className={`navbar ${theme == 'dark' && 'navbar-dark'}`}>
-      <div className="nav-left">
+      <div className="nav-left zoom">
         <Link to="/">
           <img
             className="nav-logo"
