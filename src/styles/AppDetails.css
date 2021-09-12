@@ -2,7 +2,6 @@
     max-width: 900px;
     /* background: #f9f9f9; */
     margin: auto;
-    padding-bottom: 100px;
 }
 .upper{
     width: 100%;
@@ -56,6 +55,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 40px 0;
+    overflow-x: scroll;
 }
 
 .screen:hover{
@@ -81,6 +81,9 @@
 .screenshots::-webkit-scrollbar {
     height: 2px !important;
   }
+  .main {
+      background-color: inherit;
+  }
 .aaaa{
     color: green;
     text-decoration: none;
@@ -90,4 +93,8 @@
 
 .downloadtypes{
     margin: 20px
+}
+
+.root-dark {
+    overflow: auto;
 }

@@ -1,10 +1,11 @@
 [
     {
         "appId": 0,
-        "appName": "ytfy",
+        "appName": "YTFY",
+        "author": "Shibam Naskar",
         "appBanner": "https://img.freepik.com/free-vector/music-event-poster-template-with-colorful-shapes_1361-1591.jpg?size=626&ext=jpg",
         "appIcon": "https://user-images.githubusercontent.com/39475600/132354488-357eeaae-c738-4cd5-80b8-8f47b0660ec6.png",
-        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
+        "appDescription": "YT-FY is an online music app that has a huge library of songs. It's core features are, add to favourites, voice and text search, fast and high quality sound.",
         "shortDescription": "YT-FY is a online music player it has all kind of musics",
         "screenshots": [
             "https://user-images.githubusercontent.com/39475600/132353403-d745b57c-6eda-46cb-8317-d5c9708a5ab2.jpeg",
@@ -14,13 +15,53 @@
             "https://user-images.githubusercontent.com/39475600/132353951-72e3f1ec-f324-4edd-b95a-8689a8279042.jpeg",
             "https://user-images.githubusercontent.com/39475600/132354072-0ddba755-f8d0-459a-aa92-0a8ff6132423.jpeg"
         ],
-        "downloads":[
+        "downloads": [
             {
-                "name":"android",
-                "link":"https://firebasestorage.googleapis.com/v0/b/downloads-2346d.appspot.com/o/lbdStoreApps%2Fytfy%2FYT-FY.apk?alt=media&token=0ee58baa-97d7-4004-83f9-c71c085301af"
+                "name": "Android",
+                "link": "https://firebasestorage.googleapis.com/v0/b/downloads-2346d.appspot.com/o/lbdStoreApps%2Fytfy%2Fapp-release.apk?alt=media&token=0ca356ca-12ca-4148-b63d-146bc2e6e3fd"
             }
-
-            
+        ]
+    },
+    {
+        "appId": 1,
+        "appName": "Ring",
+        "author": "Last Bench Devs",
+        "appBanner": "https://i.imgur.com/2d3cEQH.png",
+        "appIcon": "https://i.imgur.com/KyWsNAg.png",
+        "appDescription": "Ipsum magna Lorem Lorem velit labore amet laborum incididunt laborum do do. labore amet laborum incididunt laborum do do. ",
+        "shortDescription": "Ring is a dating app made for college students. Download Ring and get your perfect match!",
+        "screenshots": [
+            "https://user-images.githubusercontent.com/39475600/132982709-c01aaf27-7e83-435e-9860-02f892d89df2.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132982774-2dcae00b-a39c-412a-87b8-94b26a8d8d17.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132982805-e3c623a1-c1cb-44e2-9518-54e38a448e14.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132982825-57620529-f9dd-4a22-b0d5-d580ee0f33ba.jpeg",
+            "https://user-images.githubusercontent.com/39475600/132982847-029df412-abc9-420f-a7f3-2c38ea8d35ed.jpeg"
+        ],
+        "downloads": [
+            {
+                "name": "Android",
+                "link": "https://firebasestorage.googleapis.com/v0/b/downloads-2346d.appspot.com/o/lbdStoreApps%2Fring%2Fapp-release.apk?alt=media&token=b46bd23a-adfb-4248-a195-47a34dd012d8"
+            }
+        ]
+    },
+    {
+        "appId": 2,
+        "appName": "CP Reminders",
+        "author": "Sahil Saha",
+        "appBanner": "https://i.imgur.com/Zwh3sDl.png",
+        "appIcon": "https://play-lh.googleusercontent.com/02W4trPhNA0UaokXiQ02X9tGfMMdprkgeYOBYXNA6DyRl-I6qIi0dNNB4lIAtp3wbPY=s180-rw",
+        "appDescription": "CP Reminders gathers data about future coding contests announced on the most popular competitive programming platforms and shows them in one place. Never miss a contest again!",
+        "shortDescription": "CP Reminders gathers data about future coding contests in one place.",
+        "screenshots": [
+            "https://i.imgur.com/zRBkxET.png",
+            "https://i.imgur.com/NbKG698.png",
+            "https://i.imgur.com/6kVSzKU.png"
+        ],
+        "downloads": [
+            {
+                "name": "Android",
+                "link": "https://play.google.com/store/apps/details?id=com.sahil_saha.cp_reminder"
+            }
         ]
     }
 ]

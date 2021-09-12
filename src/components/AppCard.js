@@ -10,7 +10,8 @@ function AppCard({
   appDescription,
   appBanner,
   downloads,
-  appIcon
+  appIcon,
+  author
 }) {
   return (
     <div className="card-container zoom">
@@ -21,7 +22,7 @@ function AppCard({
           <h2 className="app-name">
             {appName}
           </h2>
-          <p className="app-author">Last Bench Devs</p>
+          <p className="app-author">{author}</p>
         </div>
       </div>
       <div className="gradient-bottom">
@@ -34,13 +35,13 @@ function AppCard({
             <img className="card-icon" src={iosIcon} />
           </a> */}
           <Popup trigger={<a><img className="card-icon" src="https://media.discordapp.net/attachments/844194529263616042/885175042210676756/1200px-Circle-icons-download.svg.png?width=661&height=661" /></a>} position="bottom">
-          {
-            downloads.map((downoads,index)=>{
-              return <a href={downoads.link} target="_blank"><div>{downoads.name}</div></a>
-            })
-          }
-        </Popup>
-          
+            {
+              downloads.map((downoads, index) => {
+                return <a href={downoads.link} target="_blank"><div>{downoads.name}</div></a>
+              })
+            }
+          </Popup>
+
         </div>
       </div>
     </div>

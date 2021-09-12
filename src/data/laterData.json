@@ -1,0 +1,19 @@
+{
+  "appId": 2,
+  "appName": "Crew Up",
+  "appBanner": "https://i.imgur.com/lvZyd8y.png",
+  "appIcon": "https://user-images.githubusercontent.com/35343652/125993490-0be5367a-4cd8-414c-8d50-bba13bcb9e30.png",
+  "appDescription": "Crew Up is a mobile app which supports authentication, real time messaging (RTM) and video calling features (RTC) featuring both one to one and conference video calls. ",
+  "shortDescription": "Crew Up is an all in one chat and call application.",
+  "screenshots": [
+    "https://user-images.githubusercontent.com/35343652/125999299-e89b61ce-426e-4a36-8076-c9539f318e2c.gif",
+    "https://user-images.githubusercontent.com/35343652/125999461-a5f01d64-04fa-4309-be05-772fb86ab60e.gif",
+    "https://user-images.githubusercontent.com/35343652/126033722-15eb589e-42b6-4b19-a481-df93c9cafa35.gif"
+  ],
+  "downloads": [
+    {
+      "name": "android",
+      "link": "https://firebasestorage.googleapis.com/v0/b/downloads-2346d.appspot.com/o/lbdStoreApps%2Fytfy%2FYT-FY.apk?alt=media&token=0ee58baa-97d7-4004-83f9-c71c085301af"
+    }
+  ]
+}

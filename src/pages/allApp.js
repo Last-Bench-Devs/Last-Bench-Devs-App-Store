@@ -8,43 +8,49 @@ import { useState } from 'react';
 import { shuffle } from "lodash";
 
 function AllApp() {
-  const[searchTerms,setSearchTerms]=useState('');
+  const [searchTerms, setSearchTerms] = useState('');
   const theme = useSelector(state => state.theme);
+  var style = {};
+  if (theme == 'dark') {
+    style = {
+      backgroundColor: '#1a1a1a',
+    }
+  }
   return (
-    <div className="App" >
-      <div className="applist-header">
-        <h1 className="search-header">Search for your favourite app</h1>
-        <div className="search-field">
-          <input type="text" className={`search-input ${theme === 'dark' && 'search-input-dark'}`} placeholder="Search for an app" onChange={event=>{setSearchTerms(event.target.value)}} />
+    <div>
+      <div className="App" style={style} >
+        <div className="applist-header">
+          <h1 className="search-header">Search for your favourite app</h1>
+          <div className="search-field">
+            <input type="text" className={`search-input ${theme === 'dark' && 'search-input-dark'}`} placeholder="Search for an app" onChange={event => { setSearchTerms(event.target.value) }} />
+          </div>
         </div>
-      </div>
-      <div className="app-list">
-        {
-          shuffle(dataall).filter(
-            (val)=>{
-              if(searchTerms==""){
-                return val;
-              }else if(val.appName.toLowerCase().includes(searchTerms.toLowerCase())){
-                return val;
+        <div className="app-list" >
+          {
+            shuffle(dataall).filter(
+              (val) => {
+                if (searchTerms == "") {
+                  return val;
+                } else if (val.appName.toLowerCase().includes(searchTerms.toLowerCase())) {
+                  return val;
+                }
               }
-            }
-          ).map((currentelem, index) => {
-            return <Link to={
-              `/appdetail/${currentelem.appId}`
-            }>
-              <AppCard
-                appName={currentelem.appName}
-                appBanner={currentelem.appBanner}
-                appIcon={currentelem.appIcon}
-                appDescription={currentelem.shortDescription}
-                downloads={currentelem.downloads}
-              />
-            </Link>
-          })
-        }
-      </div>
-      <div style={{ margin: "100px auto", textAlign: 'center', width: 'fit-content' }}>
-
+            ).map((currentelem, index) => {
+              return <Link to={
+                `/appdetail/${currentelem.appId}`
+              }>
+                <AppCard
+                  appName={currentelem.appName}
+                  appBanner={currentelem.appBanner}
+                  appIcon={currentelem.appIcon}
+                  appDescription={currentelem.shortDescription}
+                  downloads={currentelem.downloads}
+                  author={currentelem.author}
+                />
+              </Link>
+            })
+          }
+        </div>
       </div>
     </div>
   );

@@ -16,12 +16,15 @@ html {
   box-sizing: inherit;
 }
 html, body, #root, .App {
-  height: 100%
+  height: 100%;
+  overflow: auto;
 }
 .root-dark {
   background-color: #1a1a1a;
+  height: 100%;
   color: white !important;
 }
+
 .root-light {
   color: #1a1a1a !important;
 }

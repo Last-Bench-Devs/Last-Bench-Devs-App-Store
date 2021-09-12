@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LBD Store",
+  "name": "The Last Bench Devs App Store",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://user-images.githubusercontent.com/39475600/132941494-98d08b72-e62e-4c06-8216-405c5d2eecc8.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://user-images.githubusercontent.com/39475600/132941494-98d08b72-e62e-4c06-8216-405c5d2eecc8.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://user-images.githubusercontent.com/39475600/132941494-98d08b72-e62e-4c06-8216-405c5d2eecc8.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
